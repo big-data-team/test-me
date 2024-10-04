@@ -1,8 +1,8 @@
 import numpy as np
 
-def main():
-    print("hello")
+def main(name):
+    print("hello,", name)
 
 if __name__ == "__main__":
-    main()
+    main("Evgeny")
     exit(0)
