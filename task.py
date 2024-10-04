@@ -2,7 +2,7 @@ import numpy as np
 
 def main(name):
     print("hello,", name)
-    for i in range(5):
+    for i in range(50):
         print(i)
 
 if __name__ == "__main__":
