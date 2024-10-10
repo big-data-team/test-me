@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+password=sys.environ["PASS"]
+
 def main(name):
     print("hello,", name)
     for i in range(50):
